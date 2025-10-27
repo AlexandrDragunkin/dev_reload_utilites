@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dev-reload-utilites"
+description = "Утилита для централизованного управления перезагрузкой модулей в приложении K3-Mebel 8.1"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Aleksandr Dragunkin", email = "alexandr69@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows :: Windows 7",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "loguru",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/your-username/dev_reload_utilites"
+Repository = "https://github.com/your-username/dev_reload_utilites"
+
+[tool.setuptools_scm]
+version_scheme = "guess-next-dev"
+local_scheme = "dirty-tag"

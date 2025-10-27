@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include dev_reload_utilites/.def_module_name
+recursive-include dev_reload_utilites *.py
+recursive-include tests *.py
+global-exclude __pycache__
+global-exclude *.py[co]
