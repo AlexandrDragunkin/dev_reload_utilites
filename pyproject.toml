@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dev-reload-utilites"
-description = "Утилита для централизованного управления перезагрузкой модулей в приложении K3-Mebel 8.1"
+description = "Utility for centralized management of module reboots in the K3-Mebel 8.1 application"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
@@ -27,8 +27,8 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-Homepage = "https://github.com/your-username/dev_reload_utilites"
-Repository = "https://github.com/your-username/dev_reload_utilites"
+Homepage = "https://github.com/AlexandrDragunkin/dev_reload_utilites"
+Repository = "https://github.com/AlexandrDragunkin/dev_reload_utilites"
 
 [tool.setuptools_scm]
 version_scheme = "guess-next-dev"

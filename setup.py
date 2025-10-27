@@ -14,7 +14,7 @@ setup(
     description="Utility for centralized management of module reboots in the K3-Mebel 8.1 application",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/dev_reload_utilites",
+    url="https://github.com/AlexandrDragunkin/dev_reload_utilites",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
