@@ -66,7 +66,7 @@ auto_reload_module('my_module')
 Можно назначить на кнопку команду пользователя в редакторе интерфейса к3мебель
 
 ```bash
-;macro mpathexpand("<userProto>\\auto_reload_manager.py");
+;macro mpathexpand("<userProto>\\dev_reload_utilites\\auto_reload_manager.py");
 ```
 
 ## Графический интерфейс
