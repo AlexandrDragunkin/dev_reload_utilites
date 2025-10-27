@@ -22,11 +22,12 @@ C:/VENV37/Scripts/python.exe install_with_check.py "c:\\PKMUserData81\\Proto"
 Если всё нормально, то вы увидите такой вывод в терминале:
 
 <details>
-  <summary>Результат команды: Текст под спойлером</summary>
-```
 
-![Результат установки папкета](Pictures/Pic2.jpg)
-```
+  <summary>Результат команды: Текст под спойлером</summary>
+
+
+![Результат установки пакета](Pictures/Pic2.jpg)
+
 </details>
 
 **Важно:** Обратите внимание я использую python и pip из виртуального окружения python 3.7.
