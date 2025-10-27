@@ -63,6 +63,12 @@ from dev_reload_utilites.auto_reload_manager import auto_reload_module
 auto_reload_module('my_module')
 ```
 
+Можно назначить на кнопку команду пользователя в редакторе интерфейса к3мебель
+
+```bash
+;macro mpathexpand("<userProto>\\auto_reload_manager.py");
+```
+
 ## Графический интерфейс
 
 При запуске модуля как скрипта (python auto_reload_manager.py) отображается диалоговое окно для выбора модуля и функции перезагрузки:
