@@ -8,7 +8,7 @@
 Для установки пакета через pip, выполните следующую команду:
 
 ```bash
-pip install dev-reload-utilites --target "c:\PKMUserData81\Proto"
+pip install git+https://github.com/AlexandrDragunkin/dev_reload_utilites --target c:\PKMUserData81\Proto
 ```
 
 Важно: Пакет предназначен для работы с приложением K3-Mebel 8.1. 
