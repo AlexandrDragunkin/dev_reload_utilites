@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: a6beecdd-b577-4cb5-ba1c-d116c38db269
+  title: dev_reload_utilites v0.1.0
+  description: Утилита для централизованного управления перезагрузкой модулей в приложении K3-Mebel 8.1.
+  # keywords: []
+  authors: [Александр Драгункин]
+  github: https://github.com/AlexandrDragunkin/dev_reload_utilites
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+
+  toc:
+    - file: ..\README.md
+
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
+    logo: molot_site_logo.jpg
