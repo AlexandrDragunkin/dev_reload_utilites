@@ -40,7 +40,44 @@ C:/VENV37/Scripts/python.exe install_with_check.py "c:\\PKMUserData81\\Proto"
   <summary>Результат команды: Текст под спойлером</summary>
 
 
-![Результат установки пакета](Pictures/Pic2.jpg)
+```powershell
+(VENV37) PS C:\venv37\Scripts> Invoke-WebRequest -Uri "https://raw.githubusercontent.com/AlexandrDragunkin/dev_reload_utilites/main/install_with_check.py" -OutFile "c:/TEMP/install_with_check.py"
+(VENV37) PS C:\venv37\Scripts> cd c:\temp
+(VENV37) PS C:\temp> dir inst*
+
+
+    Каталог: C:\temp
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        28.10.2025      9:53           5585 install_with_check.py
+
+
+
+(VENV37) PS C:\temp> python install_with_check.py c:\ARL81_UserData\Proto 
+Проверка и установка зависимостей в c:\ARL81_UserData\Proto
+Пакет loguru уже установлен в c:\ARL81_UserData\Proto
+Установка основного пакета dev_reload_utilites
+Установка пакета dev_reload_utilites в c:\ARL81_UserData\Proto
+Collecting git+https://github.com/AlexandrDragunkin/dev_reload_utilites
+  Cloning https://github.com/AlexandrDragunkin/dev_reload_utilites to c:\users\aleksa~1.hon\appdata\local\temp\pip-req-build-lwjbz9o7
+  Running command git clone --filter=blob:none --quiet https://github.com/AlexandrDragunkin/dev_reload_utilites 'C:\Users\ALEKSA~1.HON\AppData\Local\Temp\pip-req-build-lwjbz9o7'
+  Resolved https://github.com/AlexandrDragunkin/dev_reload_utilites to commit 206812887134f619167dc73cfd0f5b61e52eb75d
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Building wheels for collected packages: dev-reload-utilites
+  Building wheel for dev-reload-utilites (pyproject.toml) ... done
+  Created wheel for dev-reload-utilites: filename=dev_reload_utilites-0.1.dev12-py3-none-any.whl size=38490 sha256=6be92e2619f7d686335f616cd5f4b7e0659cbf382199922ad35b8a523d476d51        
+  Stored in directory: C:\Users\ALEKSA~1.HON\AppData\Local\Temp\pip-ephem-wheel-cache-g4ikb7r7\wheels\f3\09\2a\7fee472cc2509d4ede196e6500c880612bd6323d09b7ef5776
+Successfully built dev-reload-utilites
+Installing collected packages: dev-reload-utilites
+Successfully installed dev-reload-utilites-0.1.dev12
+Пакет dev_reload_utilites успешно установлен
+Установка завершена
+(VENV37) PS C:\temp> 
+```
 
 </details>
 
