@@ -12,13 +12,27 @@
 ```bash
 pip install git+https://github.com/AlexandrDragunkin/dev_reload_utilites --target c:\PKMUserData81\Proto
 ```
+
 В этом случае в папку будут установлены зависимости `loguru` и `colorama`. Что бы избежать возможного дублирования пакетов, можно установить пакет другой командой:
 
+Скачать файл `install_with_check.py` из репозитория можно  командой в PowerShell:
 
+В текущую дирректорию
+```powershell
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/AlexandrDragunkin/dev_reload_utilites/main/install_with_check.py -OutFile install_with_check.py
+```
+
+Или в конкретную. например в папку `c:/TEMP`
+
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/AlexandrDragunkin/dev_reload_utilites/main/install_with_check.py" -OutFile "c:/TEMP/install_with_check.py"
+
+```
 
 ```bash
 C:/VENV37/Scripts/python.exe install_with_check.py "c:\\PKMUserData81\\Proto"
 ```
+
 Если всё нормально, то вы увидите такой вывод в терминале:
 
 <details>
@@ -33,7 +47,7 @@ C:/VENV37/Scripts/python.exe install_with_check.py "c:\\PKMUserData81\\Proto"
 **Важно:** Обратите внимание я использую python и pip из виртуального окружения python 3.7.
 3.7 это ОЧЕНЬ важно!
 
-**Важно:** Пакет предназначен для работы с приложением K3-Mebel 8.1. 
+**Важно:** Пакет предназначен для работы с приложением K3-Mebel 8.1.
 Целевая папка для размещения файлов должна быть `UserProto`, например: `c:\PKMUserData81\Proto`
 
 При установке пакета убедитесь, что у вас есть доступ к этой директории и что она существует.
@@ -76,6 +90,7 @@ auto_reload_module('my_module')
 ![Диалоговое окно](Pictures/Pic1.jpg)
 
 В диалоговом окне можно выбрать:
+
 - Имя модуля для перезагрузки (из списка недавно редактированных файлов). По умолчанию выбирается самый "молодой" модуль из списка.
 - Функцию перезагрузки (auto_reload_module, reload_module_with_dependencies, selective_reload). Рекомендуется использовать auto_reload_module.
 
