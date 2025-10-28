@@ -24,14 +24,14 @@ pip install git+https://github.com/AlexandrDragunkin/dev_reload_utilites --targe
 
 В этом случае в папку будут установлены зависимости `loguru` и `colorama`. Что бы избежать <u>возможного дублирования пакетов</u>, можно **установить пакет другой командой**:
 
-Скачать файл `install_with_check.py` из репозитория можно  командой в PowerShell:
+Скачать файл `install_with_check.py` из репозитория можно командой в оболочке `PowerShell`:
 
 В текущую дирректорию
 ```powershell
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/AlexandrDragunkin/dev_reload_utilites/main/install_with_check.py -OutFile install_with_check.py
 ```
 
-Или в конкретную. например в папку `c:/TEMP`
+Или в конкретную. Например в папку `c:/TEMP`
 
 ```powershell
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/AlexandrDragunkin/dev_reload_utilites/main/install_with_check.py" -OutFile "c:/TEMP/install_with_check.py"
