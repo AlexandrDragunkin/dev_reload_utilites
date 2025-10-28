@@ -208,3 +208,6 @@ __marimo__/
 
 # temp files
 .def_module_name
+
+# MyST build outputs
+_build
